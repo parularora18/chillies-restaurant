@@ -1,0 +1,41 @@
+.qrispy{
+    width: 100px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+body{
+    font-family: spline sans,sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+
+}
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+a:hover{
+    color: #F58d17;
+}
+.btn{
+    border-radius: 0;
+    padding:14PX 38PX ;
+}
+.btn-brand{
+    background-color: red;
+    color: white;
+    font-family: 500;
+    
+}
+.btn-brand:hover{
+    background-color: red;
+    color: white;
+
+}
