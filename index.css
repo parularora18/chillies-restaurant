@@ -1,4 +1,4 @@
-.qrispy{
+.chilis{
     width: 100px;
 }
 
@@ -9,7 +9,9 @@ body{
     font-family: spline sans,sans-serif;
     color: #777;
     line-height: 1.7;
+    height: 1800px;
 }
+/* navbar */
 h1,h2,h3,h4,h5,h6{
     font-weight: 600;
     color: #222;
@@ -35,7 +37,48 @@ a:hover{
     
 }
 .btn-brand:hover{
-    background-color: red;
+    background-color: rgb(240, 99, 99);
     color: white;
 
+}
+/* background */
+.slide-1 {
+    background: linear-gradient(rgba(0, 0 ,0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/cover1.jpg);
+} 
+.slide-2{
+    background: linear-gradient(rgba(0, 0 ,0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/cover2.jpg);
+}
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* arrow */
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0, 0 ,0, 0.6);
+    margin: auto;
+    width: 40px;
+    height: 70px;
+}
+/* heroslider */
+#heroslider h6::after,
+#heroslider h6::before{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 10px;
+    vertical-align: middle;
+    content: "";
+    display: inline-block;
+}
+/* about */
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+img{
+    width: 100%
+   
 }
