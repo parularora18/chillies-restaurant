@@ -137,3 +137,22 @@ img{
 .shadow-on-hover:hover{
     box-shadow: 0px 10px 40px rgba(0, 0 ,0, 0.1);
 }
+/* Features*/
+#features{
+    background: linear-gradient(rgba(0, 0 ,0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/cover2.jpg);
+  
+}
+.features{
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.features .feature-icon{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 0, 0, 0.93);
+    color: white;
+    font-size: 30px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    
+}
